@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat.ttf") format("ttf"),
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("/fonts/Fraunces.ttf") format("ttf"),
+}
+
+
+
+body{ 
+    background-color: hsl(30, 38%, 92%) ;
+}
+img{
+    width: 250px;
+    display: flex;
+    margin-left: 28%;
+    margin-top: 22%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.backgroundwhite{
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 375px;
+    margin-bottom: 12px;
+    margin-left: 590px;
+    margin-top: -376px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.titlebloc{
+    margin-left: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -363px;
+}
+.titleh2{
+    font-family: 'Monserrat', serif;
+    margin-left: 50%;
+}
+.pparagraph{
+    font-family: 'Fraunces', serif;
+    margin-left: 50%;
+    font-weight: 700;
+}
+.numberprice{
+    text-align: center;
+    margin-left: 132px;
+    font-size: 24px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Monserrat', serif;
+}
+.littleprice{
+    font-size: 10px;
+    margin-left: 19px;
+    font-family: 'Monserrat', serif;
+}
